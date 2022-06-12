@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Afreame Materical System</title>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://unpkg.com/aframe-spe-particles-component@^1.0.4/dist/aframe-spe-particles-component.min.js"></script>
+    </head>
+    <body>
+        <a-scene id="scene">
+            <a-entity position="0 1 0 " spe-particles=" color: yellow, red, cyan, black; distribution: sphere; radius: 1; particle-count: 800; velocity: 1; velocity-spread: 15; drag: 1; max-age: 2; duration: -1, blending: additive; active-multiplier: 1000; size: 1, 1, 1, 0"> </a-entity>
+            <a-sky color="black"></a-sky>
+            <a-camera posititon = "0 0 30"></a-camera>
+        </a-scene>
+    </body>
+</html>
